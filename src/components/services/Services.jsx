@@ -11,36 +11,32 @@ function Services() {
       <div className="container services__container">
         <article className="service">
             <div className="service__head">
-              <h3>UI/UX Design</h3>
+              <h3>Graphic Design</h3>
             </div>
             <ul className='service__list'>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>UI/UX Design</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Premiere Pro / After Effects</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>High-end Presentation</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Offset Print Design</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Branding</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-              </li>
-              <li>
-                <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>InDesign</p>
               </li>
             </ul>
         </article>
@@ -52,71 +48,59 @@ function Services() {
             <ul className='service__list'>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Responsive Web Design</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Shopify Store</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>WordPress Site</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>HubSpot CMS</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Dynamic Frontend Design</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-              </li>
-              <li>
-                <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-              </li>
-              <li>
-                <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Web Application</p>
               </li>
             </ul>
         </article>
 
         <article className="service">
             <div className="service__head">
-              <h3>Graphic Designing</h3>
+              <h3>Other Services</h3>
             </div>
             <ul className='service__list'>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Artificial Intelligence / IOT</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>SEO Services</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Software Development</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Network Admin</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>TypeScripting</p>
               </li>
               <li>
                 <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-              </li>
-              <li>
-                <HiOutlineArrowCircleRight className='service__list-icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <p>Hardware Services</p>
               </li>
             </ul>
         </article>

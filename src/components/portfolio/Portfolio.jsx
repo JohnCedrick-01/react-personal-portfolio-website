@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
@@ -13,15 +13,15 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Name1',
-    github: 'https://github.com/',
+    title: 'Resto',
+    github: 'https://github.com/JohnCedrick-01/resto_wp',
     demo: 'https://github.com/'
 
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Name1',
+    title: 'Inka Athlete',
     github: 'https://github.com/',
     demo: 'https://github.com/'
 
@@ -30,33 +30,33 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Name1',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    title: 'Town Seat Experts {123}',
+    github: 'https://github.com/JohnCedrick-01/TownSeat_Experts',
+    demo: 'https://town-seat-experts.myshopify.com/'
 
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Name1',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    title: 'Logo Slider',
+    github: 'https://github.com/JohnCedrick-01/logo_slider',
+    demo: 'https://town-seat-experts.myshopify.com/'
 
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Name1',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    title: 'Inka Ver 3.0',
+    github: '#portfolio',
+    demo: '#portfolio'
 
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Name1',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    title: 'Personal Portfolio',
+    github: 'https://github.com/JohnCedrick-01/react-personal-portfolio-website',
+    demo: 'https://john-cedrick.000webhostapp.com/'
 
   }
 
@@ -80,11 +80,10 @@ const Portfolio = () => {
             </div>
             <h3>{title}</h3>
             <div className="portfolio__item-cta">
-            <a href={github} className="btn">
+            <a href={github} className="btn" target="_blank">
               Github
             </a>
-            <a
-              href={demo}
+            <a href={demo}
               className="btn btn-primary"
               target="_blank"
             >

@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpg";
-import {FaAward} from "react-icons/fa"
-import {RiTeamLine} from "react-icons/ri"
-import {IoLibraryOutline} from "react-icons/io5"
+import { FaAward } from "react-icons/fa";
+import { RiTeamLine } from "react-icons/ri";
+import { IoLibraryOutline } from "react-icons/io5";
 
 const About = () => {
   return (
@@ -16,6 +16,7 @@ const About = () => {
           <div className="about__me-image">
             <img src={ME} alt="Author Wearing Facemask" />
           </div>
+            
         </div>
         <div className="about__content">
           <div className="about__cards">
@@ -38,12 +39,24 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            culpa perferendis commodi minima odio reprehenderit fugiat sapiente
-            sunt ad quidem doloremque, ullam, repudiandae ut repellendus cumque
-            tempore? Dolor, iste minima!
+        
+              I’m a Full Stack Developer located in Philippines. I have a
+              serious passion in learning UI effects, animations and creating
+              intuitive, dynamic user experiences.
+              <br />
+              <br />
+              Well-organised person, problem solver, independent employee with
+              high attention to detail. Fan of MMA, outdoor activities, TV
+              series and English literature. A family person and father of two
+              fractious boys
+              <br />
+              <br />
+              Interested in the entire frontend spectrum and working on
+              ambitious projects with positive people.
           </p>
-          <a href='#contact' className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>

@@ -18,27 +18,27 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: "Lenie Marcos",
+    name: "Jerilyn Aquino",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur suscipit quidem itaque quas reiciendis? Alias suscipit veritatis labore deserunt eligendi vel harum molestias earum, nulla iste asperiores. Atque, enim repudiandae."
+      "Web Development is exactly what our business has been lacking. Thanks to Web Development, we've just launched our 5th website! Absolutely wonderful!"
   },
   {
     avatar: AVTR2,
-    name: "Bongbong Aquino",
+    name: "Jason Rivera",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur suscipit quidem itaque quas reiciendis? Alias suscipit veritatis labore deserunt eligendi vel harum molestias earum, nulla iste asperiores. Atque, enim repudiandae."
+    "It's really wonderful. I STRONGLY recommend it to EVERYONE interested in running a successful online business! We are extremely satisfied with the results."
   },
   {
     avatar: AVTR3,
-    name: "Kiko Duterte",
+    name: "Alvin Root",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur suscipit quidem itaque quas reiciendis? Alias suscipit veritatis labore deserunt eligendi vel harum molestias earum, nulla iste asperiores. Atque, enim repudiandae."
+    "Wow what great service, I love it! Nice work on your Artificial Intelligence. Artificial Intelligence should be nominated for service of the year."
   },
   {
     avatar: AVTR4,
-    name: "Sarah Robredo",
+    name: "Justine Andrei Andal",
     review:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur suscipit quidem itaque quas reiciendis? Alias suscipit veritatis labore deserunt eligendi vel harum molestias earum, nulla iste asperiores. Atque, enim repudiandae."
+    "It's incredible. You've saved our business! Man, this thing is getting better and better as I learn more about it."
   }
 
 ];
@@ -63,7 +63,7 @@ const Testimonials = () => {
             return(
               <SwiperSlide key={index} className="testimonial">
               <div className="client__avatar">
-                <img src={avatar}/>
+                <img src={avatar} alt={name}/>
               </div>
               <h5 className="client__name">{name}</h5>
               <small className="client__review">{review}

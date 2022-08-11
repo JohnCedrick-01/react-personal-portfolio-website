@@ -16,7 +16,7 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
 
@@ -24,23 +24,15 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Expert</small>
               </div>
             </article>
 
             <article className="experience__details">
               <FaReact className='experience__details-icon' />
               <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <FaReact className='experience__details-icon' />
-              <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <h4>React/JS</h4>
+                <small className="text-light">Proficient</small>
               </div>
             </article>
 
@@ -48,7 +40,7 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
                 <h4>Tailwind</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Competent</small>
               </div>
             </article>
           </div>
@@ -61,7 +53,7 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
               <h4>PHP</h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Competent</small>
               </div>
             </article>
 
@@ -69,7 +61,7 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
               <h4>MySQL</h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Competent</small>
               </div>
             </article>
 
@@ -77,7 +69,7 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
               <h4>Python</h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">Novice</small>
               </div>
             </article>
 
@@ -85,15 +77,44 @@ const Experience = () => {
               <FaReact className='experience__details-icon' />
               <div>
               <h4>C++</h4>
-              <small className="text-light">Experienced</small>
+              <small className="text-light">PRoficient</small>
+              </div>
+            </article>
+
+          </div>
+        </div>
+        <div className="experience__content-management">
+          <h3>Content Management</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <FaReact className='experience__details-icon' />
+              <div>
+              <h4>Shopify</h4>
+              <small className="text-light">Proficient</small>
               </div>
             </article>
 
             <article className="experience__details">
               <FaReact className='experience__details-icon' />
               <div>
-              <h4>.NET</h4>
-              <small className="text-light">Experienced</small>
+              <h4>WordPress</h4>
+              <small className="text-light">Proficient</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FaReact className='experience__details-icon' />
+              <div>
+              <h4>HubL</h4>
+              <small className="text-light">Competent</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <FaReact className='experience__details-icon' />
+              <div>
+              <h4>Git</h4>
+              <small className="text-light">Expert</small>
               </div>
             </article>
           </div>
