@@ -44,11 +44,8 @@ const About = () => {
               serious passion in learning UI effects, animations and creating
               intuitive, dynamic user experiences.
               <br />
-              <br />
               Well-organised person, problem solver, independent employee with
-              high attention to detail. Fan of MMA, outdoor activities, TV
-              series and English literature. A family person and father of two
-              fractious boys
+              high attention to detail. Fan of Documentaries such as Reporters Notebook, Byahe ni Drew and etc.
               <br />
               <br />
               Interested in the entire frontend spectrum and working on
