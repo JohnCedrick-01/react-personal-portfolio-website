@@ -3,10 +3,12 @@ import './footer.css'
 import {AiOutlineFacebook} from 'react-icons/ai'
 import {FiTwitter} from 'react-icons/fi'
 import {BsInstagram} from 'react-icons/bs'
+import ME from "../../assets/me.png";
 
 const Footer= () => {
   return (
     <footer>
+      
       <a href="#" class='footer__logo'>JOHN-CEDRICK-MAGTIBAY</a>
       <ul className="permalinks">
         <li><a href="#">Home</a></li>
@@ -14,7 +16,6 @@ const Footer= () => {
         <li><a href="#experience">Experience</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
         <li><a href="#contacts">Contact</a></li>
       </ul>
 

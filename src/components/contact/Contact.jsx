@@ -2,8 +2,7 @@ import React from 'react'
 import './contact.css'
 import {HiOutlineMail} from 'react-icons/hi'
 import {RiMessengerLine} from 'react-icons/ri'
-import {SiViber} from 'react-icons/si'
-import { useRef } from 'react';
+import { useRef } from 'react'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
@@ -25,20 +24,14 @@ const Contact = () => {
           <article className="contact__option">
             <HiOutlineMail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>sirjc.andal@gmail.com</h5>
-            <a href="mailto:johncedrick.magtibay01@gmail.com" target="_blank">Send a Message</a>
+            <h5>cedrick@usource.me</h5>
+            <a href="mailto:cedrick@usource.me" target="_blank">Send a Message</a>
           </article>
           <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
             <h4>Messenger</h4>
             <h5>John Cedrick Magtibay</h5>
-            <a href="https://m.me/sirjc001" target="_blank">Send a Message</a>
-          </article>
-          <article className="contact__option">
-            <SiViber className='contact__option-icon'/>
-            <h4>Viber</h4>
-            <h5>+63912-080-0728</h5>
-            <a href="https:viber.com" target="_blank">Send a Message</a>
+            <a href="https://www.messenger.com" target="_blank">Send a Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
