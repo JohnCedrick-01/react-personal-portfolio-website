@@ -29,26 +29,21 @@ const About = () => {
             <article className="about__card">
               <RiTeamLine className="about__icon" />
               <h5>Clients</h5>
-              <small>50+ Worldwide</small>
+              <small>10+ Worldwide</small>
             </article>
 
             <article className="about__card">
               <IoLibraryOutline className="about__icon" />
               <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
           <p>
         
               I’m a Full Stack Developer located in Philippines. I have a
               serious passion in learning UI effects, animations and creating
-              intuitive, dynamic user experiences.
-              <br />
-              Well-organised person, problem solver, independent employee with
-              high attention to detail. Fan of Documentaries such as Reporters Notebook, Byahe ni Drew and etc.
-              <br />
-              <br />
-              Interested in the entire frontend spectrum and working on
+              intuitive, dynamic user experiences. Well-organised person, problem solver, independent employee with
+              high attention to detail. Fan of Documentaries such as Reporters Notebook, Byahe ni Drew and etc.Interested in the entire frontend spectrum and working on
               ambitious projects with positive people.
           </p>
           <a href="#contact" className="btn btn-primary">

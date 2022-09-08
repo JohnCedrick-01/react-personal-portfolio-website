@@ -40,7 +40,7 @@ const data = [
     image: IMG4,
     title: 'Gallery Page',
     github: 'https://github.com/',
-    demo: '#portfolio'
+    demo: 'http://johncedrickmagtibay.rf.gd/'
 
   },
   {
